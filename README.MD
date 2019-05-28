@@ -1,13 +1,13 @@
 # Lab 2
 ##### Create a Polygon class. A polygon is defined by sequence of vertices.
-It shall be possible to create an empty polygon and then add vertices one by one.
-Each vertex is defined as a point with two integer coordinates in 2D coordinate space. Vertices are immutable.
-It shall be possible to get a specific vertex of polygon by vertex sequence number. Attempt to get a non-existing
-vertex shall result in IndexOutOfBounds expection thrown.
-It shall be possible to delete a vertex specified by vertex number.
-Printing out a polygon shall result in each vertex coordinates being printed.
-Use no collections and no arrays in Polygon implementation.
-Here follows a short demo of Polygon capabilities:
+- It shall be possible to create an empty polygon and then add vertices one by one.
+- Each vertex is defined as a point with two integer coordinates in 2D coordinate space. Vertices are immutable.
+- It shall be possible to get a specific vertex of polygon by vertex sequence number. Attempt to get a non-existing
+- vertex shall result in IndexOutOfBounds expection thrown.
+- It shall be possible to delete a vertex specified by vertex number.
+- Printing out a polygon shall result in each vertex coordinates being printed.
+- Use no collections and no arrays in Polygon implementation.
+- Here follows a short demo of Polygon capabilities:
 ```
 import org.junit.Test;
 public class PolygonC onsoleDemo {
